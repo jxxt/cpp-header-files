@@ -32,5 +32,13 @@ void print(const std::vector<T> &vec)
 template <typename T, size_t N>
 size_t length(const T (&array)[N])
 {
-    std::cout << N;
+    std::cout << N << std::endl;
+}
+
+///// length of vector
+
+template <typename T>
+size_t length(const std::vector<T> &vec)
+{
+    std::cout << vec.size() << std::endl;
 }

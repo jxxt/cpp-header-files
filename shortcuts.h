@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-// print array
+///// print array
 
 template <typename T, size_t N>
 void print(const T (&array)[N])
@@ -14,7 +14,7 @@ void print(const T (&array)[N])
     std::cout << "]" << std::endl;
 }
 
-// print vector
+///// print vector
 
 template <typename T>
 void print(const std::vector<T> &vec)
@@ -25,4 +25,12 @@ void print(const std::vector<T> &vec)
         std::cout << elem << " ";
     }
     std::cout << "]" << std::endl;
+}
+
+///// length of array
+
+template <typename T, size_t N>
+size_t length(const T (&array)[N])
+{
+    std::cout << N;
 }

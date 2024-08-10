@@ -21,12 +21,12 @@
 > helps to print length of any array and vector by just specifying its name
 
 
-## loading the header files
+## loading the header files:
 
 > run `load.bat` file
 
 
-## contribution
+## contribution:
 
 > feel free to suggest any improvements or new ideas
 

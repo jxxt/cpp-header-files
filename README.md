@@ -20,3 +20,5 @@
 
 
 ## loading the header files
+
+> run `load.bat` file

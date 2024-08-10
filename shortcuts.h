@@ -13,3 +13,16 @@ void print(const T (&array)[N])
     }
     std::cout << "]" << std::endl;
 }
+
+// print vector
+
+template <typename T>
+void print(const std::vector<T> &vec)
+{
+    std::cout << "[ ";
+    for (const auto &elem : vec)
+    {
+        std::cout << elem << " ";
+    }
+    std::cout << "]" << std::endl;
+}

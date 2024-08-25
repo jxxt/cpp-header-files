@@ -1,3 +1,16 @@
+/*
+
+MIT License @ (https://www.github.com/jxxt)
+Copyright(c) 2024 Jeet Debnath
+
+A collection of shortcut functions to save time.
+
+*/
+
+//
+//
+//
+
 #include <iostream>
 #include <vector>
 
